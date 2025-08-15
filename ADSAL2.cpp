@@ -19,7 +19,7 @@ void mergeArr(int arr[],int st,int mid, int end)
             temp[k++]=arr[i++];
         }
         else{
-            temp[k++]=arr[j];
+            temp[k++]=arr[j++];
         }
     }
     while(i<=mid) temp[k++]=arr[i++];
